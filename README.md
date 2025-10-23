@@ -25,18 +25,35 @@ Each D flip-flop in the circuit has a Data (D) input, a Clock (CLK) input, and a
 
 **Procedure**
 
+ Implementing shit in Verilog HDL (Hardware Description Language) involves translating the simplified Boolean expressions
+ into Verilog code to describe the behavior of digital circuits. The basic building blocks in Verilog is module. The module represent a
+ combinational circuit. Use logical operators (&, |, ~, ^) to implement Boolean functions directly. Use built-in gate primitives for basic
+ functions. Use University program VWF to verify the functionality of your Verilog modules. Create waveform and check outputs against
+ expected results.
+
 /* write all the steps invloved */
 
 **PROGRAM**
 
+<img width="317" height="207" alt="image" src="https://github.com/user-attachments/assets/46ef8150-6aa8-4063-9277-750680216d1c" />
+
+
 /* Program for flipflops and verify its truth table in quartus using Verilog programming.
 
-Developed by: RegisterNumber:
+Developed by: RegisterNumber: hh.mohammed irfan 25006317
 
 */
 
 **RTL LOGIC FOR SISO Shift Register**
 
+<img width="625" height="255" alt="image" src="https://github.com/user-attachments/assets/7553528f-4ee6-4e3d-9c93-83ba5c769455" />
+
+
 **TIMING DIGRAMS FOR SISO Shift Register**
 
+<img width="726" height="72" alt="image" src="https://github.com/user-attachments/assets/c8350705-1f42-4437-951c-620c957cdc46" />
+
+
 **RESULTS**
+
+implemented SISO Shift Register using verilog and validating their functionality using their functional tables verified
